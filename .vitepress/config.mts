@@ -8,14 +8,6 @@ const projectSidebar = { text: "Project", items: [
   {
     text: 'Audience',
     link: '/project/audience'
-  },
-  {
-    title: "Lexicon",
-    link: "/project/lexicon"
-  },
-  {
-    text: "Team",
-    link: "/team"
   }
 ]};
 
@@ -31,6 +23,10 @@ const loamaSidebar = {
       link: '/loama/development'
     },
     {
+      text: 'Current Limitations',
+      link: '/loama/limitations'
+    },
+    {
       text: 'Feedback & Future suggestions',
       link: '/loama/feedback'
     }
@@ -38,7 +34,18 @@ const loamaSidebar = {
 };
 
 const mockAppSidebar = {
-  
+    text: 'Mock Apps',
+    items: [
+      {
+        text: 'Mockbook',
+        link: '/toco/mockbook/index'
+        
+      },
+      {
+        text: 'Doctorapp',
+        link: '/toco/doctorapp/index',
+      }
+    ]
 }
 
 // https://vitepress.dev/reference/site-config
@@ -72,20 +79,47 @@ export default defineConfig({
     ],
 
     sidebar: {
+      "/": [
+        { text: "Home", link: "/" },
+        {
+          text: "Lexicon",
+          link: "/project/lexicon"
+        },
+        {
+          ...projectSidebar,
+          collapsed: true
+        },
+        {
+          ...loamaSidebar,
+          collapsed: true
+        },
+        {
+          ...mockAppSidebar,
+          collapsed: true
+        },
+        { text: "Team", link: "/team" },
+      ],
       '/project': [
         projectSidebar,
         {
           ...loamaSidebar,
           collapsed: true
+        },
+        {
+          ...mockAppSidebar,
+          collapsed: true
         }
-        
       ],
       '/loama': [
         {
           ...projectSidebar,
           collapsed: true
         },
-        loamaSidebar
+        loamaSidebar,
+        {
+          ...mockAppSidebar,
+          collapsed: true
+        }
       ],
       '/toco': [
         {
@@ -95,7 +129,8 @@ export default defineConfig({
         {
           ...loamaSidebar,
           collapsed: true
-        }
+        },
+        mockAppSidebar
       ]
     },
   }
