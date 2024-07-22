@@ -1,15 +1,17 @@
 import { defineConfig } from 'vitepress'
 
-const projectSidebar = { text: "Project", items: [
-  {
-    text: 'Goal',
-    link: '/project/goal'
-  },
-  {
-    text: 'Audience',
-    link: '/project/audience'
-  }
-]};
+const projectSidebar = {
+  text: "Project", items: [
+    {
+      text: 'Goal',
+      link: '/project/goal'
+    },
+    {
+      text: 'Audience',
+      link: '/project/audience'
+    }
+  ]
+};
 
 const loamaSidebar = {
   text: 'Loama',
@@ -34,18 +36,18 @@ const loamaSidebar = {
 };
 
 const mockAppSidebar = {
-    text: 'Mock Apps',
-    items: [
-      {
-        text: 'Mockbook',
-        link: '/toco/mockbook/index'
-        
-      },
-      {
-        text: 'Doctorapp',
-        link: '/toco/doctorapp/index',
-      }
-    ]
+  text: 'Mock Apps',
+  items: [
+    {
+      text: 'Mockbook',
+      link: '/toco/mockbook/index'
+
+    },
+    {
+      text: 'Doctorapp',
+      link: '/toco/doctorapp/index',
+    }
+  ]
 }
 
 // https://vitepress.dev/reference/site-config
@@ -63,19 +65,25 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Project', items: [
-        { text: 'Why?', link: "/project/goal"},
-        { text: 'For who?', link: "/project/audience"},
-      ]},
-      { text: 'Loama', items: [
-        { text: 'Design', link: '/loama/design.md' },
-        { text: 'Development', link: '/loama/development' },
-        { text: "Feedback", link: "/loama/feedback" }
-      ]},
-      { text: "Mock Apps", items: [
-        { text: "MockBook", link: "/toco/mockbook/index"},
-        { text: "Docterapp", link: "/toco/doctorapp/index"}
-      ]}
+      {
+        text: 'Project', items: [
+          { text: 'Why?', link: "/project/goal" },
+          { text: 'For who?', link: "/project/audience" },
+        ]
+      },
+      {
+        text: 'Loama', items: [
+          { text: 'Design', link: '/loama/design.md' },
+          { text: 'Development', link: '/loama/development' },
+          { text: "Feedback", link: "/loama/feedback" }
+        ]
+      },
+      {
+        text: "Mock Apps", items: [
+          { text: "MockBook", link: "/toco/mockbook/index" },
+          { text: "Docterapp", link: "/toco/doctorapp/index" }
+        ]
+      }
     ],
 
     sidebar: {
@@ -83,7 +91,7 @@ export default defineConfig({
         { text: "Home", link: "/" },
         {
           text: "Lexicon",
-          link: "/project/lexicon"
+          link: "/lexicon"
         },
         {
           ...projectSidebar,
