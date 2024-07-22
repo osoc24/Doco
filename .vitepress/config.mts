@@ -38,11 +38,12 @@ const loamaSidebar = {
 };
 
 const mockAppSidebar = {
-  
+
 }
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/doco/",
   title: "Loama",
   description: "The documentation & handover website of the LOAMA project",
   themeConfig: {
