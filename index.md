@@ -5,14 +5,14 @@ layout: home
 hero:
   name: "Loama"
   text: "The documentation & handover website of the LOAMA project"
-  tagline: My great project tagline
+  tagline: Making Solid access easier & understandable
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Introduction
+      link: /getting-started
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Meet the team
+      link: /team
 
 features:
   - title: Feature A

@@ -44,15 +44,31 @@
  * -------------------------------------------------------------------------- */
 
  :root {
+  /** LOAMA Colors */
+  --solid-purple: rgb(124, 77, 255);
+  --solid-purple-50: rgb(124, 77, 255, 0.5);
+  --sonight-purple: #6200EA;
+  --soday-purple: #9F7EFF;
+  --off-black: #170D33;
+  --off-white: #F7F7F7;
+  --lama-gray: #DADADA;
+  --positive-green: #32BC65;
+  --error-red: rgb(222, 76, 89);
+  --error-red-50: rgba(222, 76, 89, 0.5);
+
+  /** VP Overrides */
+  --vp-c-white: var(--off-white);
+  --vp-c-black: var(--off-black);
+
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: var(--vp-c-indigo-1);
-  --vp-c-brand-2: var(--vp-c-indigo-2);
-  --vp-c-brand-3: var(--vp-c-indigo-3);
-  --vp-c-brand-soft: var(--vp-c-indigo-soft);
+  --vp-c-brand-1: var(--solid-purple);
+  --vp-c-brand-2: var(--soday-purple);
+  --vp-c-brand-3: var(--sonight-purple);
+  --vp-c-brand-soft: var(--solid-purple-50);
 
   --vp-c-tip-1: var(--vp-c-brand-1);
   --vp-c-tip-2: var(--vp-c-brand-2);
@@ -64,10 +80,10 @@
   --vp-c-warning-3: var(--vp-c-yellow-3);
   --vp-c-warning-soft: var(--vp-c-yellow-soft);
 
-  --vp-c-danger-1: var(--vp-c-red-1);
+  --vp-c-danger-1: var(--error-red);
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
-  --vp-c-danger-soft: var(--vp-c-red-soft);
+  --vp-c-danger-soft: var(--error-red-50);
 }
 
 /**
@@ -94,14 +110,14 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: -webkit-linear-gradient(
     120deg,
-    #bd34fe 30%,
-    #41d1ff
+    var(--sonight-purple) 30%,
+    var(--soday-purple)
   );
 
   --vp-home-hero-image-background-image: linear-gradient(
     -45deg,
-    #bd34fe 50%,
-    #47caff 50%
+    var(--sonight-purple) 50%,
+    var(--soday-purple) 50%
   );
   --vp-home-hero-image-filter: blur(44px);
 }
