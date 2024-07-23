@@ -13,7 +13,7 @@ The following is a list of terms and their definitions used in the context of th
 |---|---|---|
 |**Access Control List**|ACL|A list of permissions attached to an object that specifies which users or system processes can access that object and what operations they can perform. (Optional)|
 |**Action**||An entity (usually a person, group, or application) that can perform actions on resources.|
-|**Access Control Policy**|ACP|A policy-based access control mechanism that allows more fine-grained and flexible access control compared to ACL.|
+|**Access Control Policy**|ACP|A policy-based access control mechanism that allows more fine-grained and flexible access control compared to WAC.|
 |**Append**||The permission to add new data to a resource.|
 
 ## C
