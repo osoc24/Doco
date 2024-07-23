@@ -94,7 +94,7 @@ The following is a list of terms and their definitions used in the context of th
 |**Social Linked Data**|SOLID|A web decentralization project, aiming to give users control over their personal data by storing it in decentralized pods.|
 |**Solid App**||An application designed to interact with Solid pods and utilize Solid protocols for data access and management.|
 |**Solid Client**||An application or user agent that interacts with a Solid server to read and write data.|
-|**Solid OIDC**|Solid OpenId Connect|An authentication layer on top of the OAuth 2.0 protocol, used for secure, federated login in the Solid ecosystem.|
+|**Solid OpenId Connect**|Solid OIDC|An authentication layer on top of the OAuth 2.0 protocol, used for secure, federated login in the Solid ecosystem.|
 |**Solid Protocol**||A set of conventions for building decentralized web applications that interact with Solid pods.|
 |**Solid Server**||A server that hosts Solid pods and provides interfaces for accessing and managing the data within them.|
 |**Standard Protocol and RDF Query Language**|SPARQL|A query language for databases, able to retrieve and manipulate data stored in RDF format.|
