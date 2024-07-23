@@ -9,7 +9,7 @@ The following is a list of terms and their definitions used in the context of th
 
 ## A
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Access Control List**|ACL|A list of permissions attached to an object that specifies which users or system processes can access that object and what operations they can perform. (Optional)|
 |**Action**||An entity (usually a person, group, or application) that can perform actions on resources.|
