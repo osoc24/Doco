@@ -6,7 +6,7 @@ next:
   text: "Lexicon"
 ---
 
-# Welcome to the LOAMA handover page!
+# Welcome to the LOAMA documentation website!
 
 > **L**inked **O**pen **A**ccess **M**anagement **A**pp
 
@@ -21,7 +21,7 @@ To navigate through the handover, you can use the **header**, **sidebar**, and *
 The LOAMA project was born out of 3 goals:
 1. **Allow people to manage SOLID permissions**: Solid pods allow you to retain your data, but managing who can access that data hasn't been easy. LOAMA wants to make this easier by providing **a user-friendly way to manage those permissions.**
 2. **Envision a privacy-focused way to request permission**: Applications can use Solid pods, which allow users to bring and manage their own data, but how would an application request those permissions in a clear and privacy-first way?
-3. **Make Solid and its benefits more clear**: Solid allows for control of your data that is unknown on the internet today, but that control also brings a lot of complexity for users. LOAMA tries to make this more understandable by providing a revised [Lexicon](/lexicon) and creating an interface that is focused on ease of use.
+3. **Make Solid and its benefits more clear**: Solid allows for control of your data, but that control also brings a lot of complexity for users. LOAMA tries to make this more understandable by providing a revised [Lexicon](/lexicon) and creating an interface that is focused on ease of use.
 
 [**Read more here :arrow_right:**](/project/goal.md)
 
@@ -40,7 +40,7 @@ Thanks to research, we gained a steady foundation to create our application. The
 
 ## Future Prospects
 
-Unfortunately, we had only 4 weeks for this project *(and we wished we had more time)*. In order to help future development for LOAMA, we provide an overview of the current [limitations](/lexicon.md) and [future considerations](/loama/feedback.md) for the project.
+This project was created in just 4 weeks, but in order to help future development for LOAMA, we provide an overview of the current [limitations](/loama/limitations.md) and [future considerations](/loama/feedback.md) for the project.
 
 ## Brought by IMEC & IDLab
 

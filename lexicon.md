@@ -5,14 +5,15 @@ title: Introduction
 
 # Lexicon
 
-The following is a list of terms and their definitions used in the context of this project. It will be updated as new terms are introduced. The goal is to provide a clear understanding of the terms used in the project and get everyone on the same page. Most terms are associated with SOLID (Social Linked Data).
+The following is a list of terms and their definitions used in the context of this project. The goal is to provide a clear understanding of the terms used in the project and get everyone on the same page. Most terms are associated with SOLID (Social Linked Data).
 
 ## A
 
 |Term|Abbriviation|Description|
 |---|---|---|
-|**Access Control List**|ACL|A list of permissions attached to an object that specifies which users or system processes can access that object and what operations they can perform. (Optional)|
-|**Action**||An entity (usually a person, group, or application) that can perform actions on resources.|
+|**Access Control List**|ACL|A list of permissions attached to an object that specifies which users or system processes can access that object and what operations they can perform.|
+|**Actor**||An entity (usually a person, group, or application) that can perform actions on resources.|
+|**Action**||Term to describe the capabilities of what a user can do with a cerain file|
 |**Access Control Policy**|ACP|A policy-based access control mechanism that allows more fine-grained and flexible access control compared to WAC.|
 |**Append**||The permission to add new data to a resource.|
 
@@ -35,7 +36,7 @@ The following is a list of terms and their definitions used in the context of th
 
 |Term|Abbreviation|Description|
 |---|---|---|
-|**Friend of a Friend**|FOAF|A machine-readable ontology describing persons, their activities, and their relations to other people and objects. (Ontology: a formal representation of a set of concepts within a domain and the relationships between those concepts)|
+|**Friend of a Friend**|FOAF|A machine-readable ontology describing persons, their activities, and their relations to other people and objects.|
 
 ## I
 
@@ -57,13 +58,14 @@ The following is a list of terms and their definitions used in the context of th
 
 |Term|Abbreviation|Description|
 |---|---|---|
-|**Matcher**||A component or process that selects resources or data based on specified criteria.|
+|**Matcher**||A component or process that selects resources or data based on specified criteria. This is part of the ACP.|
 
 ## O
 
 |Term|Abbreviation|Description|
 |---|---|---|
 |**Object**||In RDF, the object is the third part of a triple that describes the value or entity related to the subject via the predicate. *(For Example: In the triple `<John, hasFriend, Jane>`, "Jane" is the object.)*|
+|**Ontology**||A formal representation of a set of concepts within a domain and the relationships between those concepts|
 |**Origin**||The source domain or URL from which a request is made.|
 |**Owner**||The individual or entity that has control over a resource or Solid pod.|
 
