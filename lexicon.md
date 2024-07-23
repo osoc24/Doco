@@ -18,7 +18,7 @@ The following is a list of terms and their definitions used in the context of th
 
 ## C
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Constraint**||A limitation or restriction placed on a rule or action.|
 |**Container**||A type of resource in Solid that can hold other resources, similar to a directory in a file system.|
@@ -27,19 +27,19 @@ The following is a list of terms and their definitions used in the context of th
 
 ## D
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Data Pod**||Personal online datastore where users store their data in a Solid ecosystem. Each pod is controlled by the individual it belongs to and is hosted by a certain provider.|
 
 ## F
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Friend of a Friend**|FOAF|A machine-readable ontology describing persons, their activities, and their relations to other people and objects. (Ontology: a formal representation of a set of concepts within a domain and the relationships between those concepts)|
 
 ## I
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Identity Provider**||A service that manages the identity information and authentication of users in a Solid ecosystem.|
 |**Index Page**||A resource in a Solid pod that provides an entry point for navigating other resources within the pod.|
@@ -48,20 +48,20 @@ The following is a list of terms and their definitions used in the context of th
 
 ## L
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Linked Data Platform**|LDP|A set of W3C standards for building interoperable web applications using Linked Data principles.|
 |**Linked Data**||A method of publishing structured data so that it can be interlinked and become more useful through semantic queries.|
 
 ## M
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Matcher**||A component or process that selects resources or data based on specified criteria.|
 
 ## O
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Object**||In RDF, the object is the third part of a triple that describes the value or entity related to the subject via the predicate. *(For Example: In the triple `<John, hasFriend, Jane>`, "Jane" is the object.)*|
 |**Origin**||The source domain or URL from which a request is made.|
@@ -69,18 +69,18 @@ The following is a list of terms and their definitions used in the context of th
 
 ## P
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Permission**||The authorization given to a user or application to access and manipulate resources within a Solid pod.|
 |**Policy**|| A set of rules or permissions that govern access to resources.
 |**Policy Type/User Type**||Categories or roles that determine the policies applicable to different users or groups.|
 |**Profile**||A resource that describes a Solid user, typically containing information about the user and links to other resources.|
 |**Properties**||Characteristics or attributes of a resource.|
-|**Prohibation**||A restriction or denial of certain actions on a resource.|
+|**Prohibition**||A restriction or denial of certain actions on a resource.|
 
 ## R
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Resource Description Framework**|RDF|A standard model for data interchange on the web, which Solid uses to structure and link data.|
 |**Read**||The permission to view a resource.|
@@ -89,7 +89,7 @@ The following is a list of terms and their definitions used in the context of th
 
 ## S
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Social Linked Data**|SOLID|A web decentralization project, aiming to give users control over their personal data by storing it in decentralized pods.|
 |**Solid App**||An application designed to interact with Solid pods and utilize Solid protocols for data access and management.|
@@ -98,11 +98,11 @@ The following is a list of terms and their definitions used in the context of th
 |**Solid Protocol**||A set of conventions for building decentralized web applications that interact with Solid pods.|
 |**Solid Server**||A server that hosts Solid pods and provides interfaces for accessing and managing the data within them.|
 |**Standard Protocol and RDF Query Language**|SPARQL|A query language for databases, able to retrieve and manipulate data stored in RDF format.|
-|**Storage**||The location or space where data in a Solid pod is kept.|
+|**Storage**||The location or space where data is kept in a Solid pod.|
 
 ## T
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Target**||The resource or entity on which an action is performed.|
 |**Triple**:||The atomic data entity in RDF, consisting of a subject, predicate, and object *(`<John, hasFriend, Jane>`)*. It's used to make statements about resources.|
@@ -110,19 +110,19 @@ The following is a list of terms and their definitions used in the context of th
 
 ## U
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |Uniform Resource Identifier|URI|A string of characters that unambiguously identifies a particular resource. *(`http://example.org/resource`)*|
 
 ## V
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Vocabulary**||A set of terms used to describe concepts and relationships within a specific domain, important for creating interoperable linked data.|
 
 ## W
 
-|Term|Abbriviation|Description|
+|Term|Abbreviation|Description|
 |---|---|---|
 |**Web Access Control**|WAC|A method for defining access control rules for resources on the web, used within Solid for managing permissions.|
 |**WebID**||A unique identifier that denotes a person's identity in the Solid ecosystem, usually a URL that points to a profile document.|

@@ -33,7 +33,7 @@ In order to understand our users and how they would interact with our project, w
 
 ## Deliverables
 
-Thanks to research, we gained a steady foundation to create our application. These applications were created and developed with feedback from [Imec](https://www.imec-int.com/) and [IDLab](https://www.ugent.be/ea/idlab/en). Out of the feedback from them and the entire OSOC team, we designed and developed the following applications:
+Thanks to research, we gained a steady foundation to create our application. These applications were created and developed with feedback from [Imec](https://www.imec-int.com/) and [IDLab](https://www.ugent.be/ea/idlab/en). From their feedback and the entire osoc team's, we designed and developed the following applications:
 - [Loama :arrow_right:](/loama/index.md)
 - [Mockbook :arrow_right:](/toco/mockbook/index.md)
 - [DoctorApp :arrow_right:](/toco/doctorapp/index.md) 
@@ -46,7 +46,7 @@ Unfortunately, we had only 4 weeks for this project *(and we wished we had more 
 
 This project was made possible by [Imec](https://www.imec-int.com/) and [IDLab](https://www.ugent.be/ea/idlab/en):
 
-- Imec is the world's leading independent nanoelectronics R&D hub. The combination of their talent, infrastructure, and partner network enables breakthroughs towards microchips that are smaller, faster, more affordable, and more sustainable.
+- Imec is the world's leading independent nanoelectronics R&D hub. The combination of their talent, infrastructure, and partner network enables breakthroughs towards smaller, faster, more affordable, and more sustainable microchips.
 
 - IDLab is a collaboration between [UGent](https://www.ugent.be/) and [Imec](https://www.imec-int.com/) and performs research on a wide range of topics, such as AI, IoT, Networking, Circuit design and more.
 

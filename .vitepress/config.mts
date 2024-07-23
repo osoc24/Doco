@@ -69,7 +69,7 @@ export default defineConfig({
       {
         text: 'Project', items: [
           { text: 'Why?', link: "/project/goal" },
-          { text: 'For who?', link: "/project/audience" },
+          { text: 'For whom?', link: "/project/audience" },
         ]
       },
       {
