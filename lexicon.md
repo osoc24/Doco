@@ -97,7 +97,7 @@ The following is a list of terms and their definitions used in the context of th
 |**Solid OIDC**|Solid OpenId Connect|An authentication layer on top of the OAuth 2.0 protocol, used for secure, federated login in the Solid ecosystem.|
 |**Solid Protocol**||A set of conventions for building decentralized web applications that interact with Solid pods.|
 |**Solid Server**||A server that hosts Solid pods and provides interfaces for accessing and managing the data within them.|
-|**SPARQL Protocol and RDF Query Language**|SPARQL|A query language for databases, able to retrieve and manipulate data stored in RDF format.|
+|**Standard Protocol and RDF Query Language**|SPARQL|A query language for databases, able to retrieve and manipulate data stored in RDF format.|
 |**Storage**||The location or space where data in a Solid pod is kept.|
 
 ## T
