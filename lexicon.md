@@ -106,7 +106,7 @@ The following is a list of terms and their definitions used in the context of th
 |---|---|---|
 |**Target**||The resource or entity on which an action is performed.|
 |**Triple**:||The atomic data entity in RDF, consisting of a subject, predicate, and object *(`<John, hasFriend, Jane>`)*. It's used to make statements about resources.|
-|**Turtle (Terse RDF Triple Language)**||A syntax for writing RDF data in a compact and readable format.|
+|**Terse RDF Triple Language**|Turtle|A syntax for writing RDF data in a compact and readable format.|
 
 ## U
 
