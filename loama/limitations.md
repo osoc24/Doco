@@ -21,3 +21,4 @@ The following things are deemed out-of-scope:
 
 - There's no support for setting the permissions on an object recursively
 - When adding a new item in the index file no check is performed to make sure it isn't already present
+- When creating an empty index file, no corresponding ACL file is created
