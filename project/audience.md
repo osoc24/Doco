@@ -1,5 +1,8 @@
 ---
 title: For whom?
+next:
+    link: /loama/index
+    text: 'Loama'
 ---
 # For whom?
 

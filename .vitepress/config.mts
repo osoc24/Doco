@@ -7,6 +7,10 @@ const projectSidebar = {
       link: '/project/goal'
     },
     {
+      text: 'Branding',
+      link: '/project/brand'
+    },
+    {
       text: 'Audience',
       link: '/project/audience'
     }
