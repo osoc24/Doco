@@ -93,14 +93,13 @@ export default defineConfig({
             items: [
               { text: "Design", link: "/deliverables/loama/design.md" },
               { text: "Development", link: "/deliverables/loama/development" },
-              { text: "Feedback", link: "/deliverables/loama/feedback" },
             ],
           },
           {
             text: "Mock Apps",
             items: [
               { text: "MockBook", link: "/deliverables/toco/mockbook/index" },
-              { text: "Docterapp", link: "/deliverables/toco/doctorapp/index" },
+              { text: "Doctorapp", link: "/deliverables/toco/doctorapp/index" },
             ],
           },
           {
