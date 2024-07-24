@@ -15,6 +15,10 @@ const projectSidebar = {
       title: "Lexicon",
       link: "/project/lexicon",
     },
+    {
+      text: "Team",
+      link: "/team",
+    },
   ],
 };
 
