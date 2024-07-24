@@ -1,54 +1,46 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 const projectSidebar = {
-  text: "Project", items: [
+  text: "Project",
+  items: [
     {
-      text: 'Branding',
-      link: '/project/brand'
+      text: "Goal",
+      link: "/project/goal",
     },
     {
-      text: 'Audience',
-      link: '/project/audience'
-    }
-  ]
+      text: "Audience",
+      link: "/project/audience",
+    },
+    {
+      title: "Lexicon",
+      link: "/project/lexicon",
+    },
+    {
+      text: "Team",
+      link: "/team",
+    },
+  ],
 };
 
 const loamaSidebar = {
-  text: 'Loama',
+  text: "Loama",
   items: [
     {
-      text: 'Design',
-      link: '/loama/design.md'
+      text: "Design",
+      link: "/loama/design.md",
     },
     {
-      text: 'Development',
-      link: '/loama/development'
+      text: "Development",
+      link: "/loama/development",
     },
     {
-      text: 'Current Limitations',
-      link: '/loama/limitations'
+      text: "Feedback & Future suggestions",
+      link: "/loama/feedback",
     },
-    {
-      text: 'Feedback & Future suggestions',
-      link: '/loama/feedback'
-    }
-  ]
+  ],
 };
 
-const mockAppSidebar = {
-  text: 'Mock Apps',
-  items: [
-    {
-      text: 'Mockbook',
-      link: '/toco/mockbook/index'
-
-    },
-    {
-      text: 'Doctorapp',
-      link: '/toco/doctorapp/index',
-    }
-  ]
-}
+const mockAppSidebar = {};
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,111 +48,68 @@ export default defineConfig({
   title: "Loama",
   description: "The documentation & handover website of the LOAMA project",
   themeConfig: {
-    logo: '/loama-logo.svg',
+    logo: "/loama-logo.svg",
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/osoc24' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/open-summer-of-code/posts/?feedView=all' },
+      { icon: "github", link: "https://github.com/osoc24" },
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/company/open-summer-of-code/posts/?feedView=all",
+      },
     ],
     search: {
-      provider: 'local'
+      provider: "local",
     },
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Introduction', link: "/getting-started" },
+      { text: "Home", link: "/" },
       {
-        text: 'Loama', link: "/loama/index.md"},
+        text: "Project",
+        items: [
+          { text: "Why?", link: "/project/goal" },
+          { text: "For who?", link: "/project/audience" },
+        ],
+      },
       {
-        text: "Mock Apps", items: [
+        text: "Loama",
+        items: [
+          { text: "Design", link: "/loama/design.md" },
+          { text: "Development", link: "/loama/development" },
+          { text: "Feedback", link: "/loama/feedback" },
+        ],
+      },
+      {
+        text: "Mock Apps",
+        items: [
           { text: "MockBook", link: "/toco/mockbook/index" },
-          { text: "Docterapp", link: "/toco/doctorapp/index" }
-        ]
-      }
+          { text: "Doctorapp", link: "/toco/doctorapp/index" },
+        ],
+      },
     ],
 
     sidebar: {
-      "/": [
-        {
-          text: "Getting Started",
-          link: "/getting-started"
-        },
-        {
-          text: "Lexicon",
-          link: "/lexicon"
-        },
-        {
-          ...projectSidebar,
-          collapsed: true
-        },
-        {
-          ...loamaSidebar,
-          collapsed: true
-        },
-        {
-          ...mockAppSidebar,
-          collapsed: true
-        },
-        { text: "Team", link: "/team" },
-      ],
-      '/project': [
-        {
-          text: "Getting Started",
-          link: "/getting-started"
-        },
-        {
-          text: "Lexicon",
-          link: "/lexicon"
-        },
+      "/project": [
         projectSidebar,
         {
           ...loamaSidebar,
-          collapsed: true
+          collapsed: true,
         },
-        {
-          ...mockAppSidebar,
-          collapsed: true
-        },
-        { text: "Team", link: "/team" },
       ],
-      '/loama': [
-        {
-          text: "Getting Started",
-          link: "/getting-started"
-        },
-        {
-          text: "Lexicon",
-          link: "/lexicon"
-        },
+      "/loama": [
         {
           ...projectSidebar,
-          collapsed: true
+          collapsed: true,
         },
         loamaSidebar,
-        {
-          ...mockAppSidebar,
-          collapsed: true
-        },
-        { text: "Team", link: "/team" },
       ],
-      '/toco': [
-        {
-          text: "Getting Started",
-          link: "/getting-started"
-        },
-        {
-          text: "Lexicon",
-          link: "/lexicon"
-        },
+      "/toco": [
         {
           ...projectSidebar,
-          collapsed: true
+          collapsed: true,
         },
         {
           ...loamaSidebar,
-          collapsed: true
+          collapsed: true,
         },
-        mockAppSidebar,
-        { text: "Team", link: "/team" },
-      ]
+      ],
     },
-  }
-})
+  },
+});
