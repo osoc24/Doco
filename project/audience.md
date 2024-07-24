@@ -30,7 +30,7 @@ By using the information gained during the [brand creation](/project/brand.md), 
 - Why should I use Solid over other technologies or just letting a company have my data?
 
 #### Solid-enabled apps
-- What do the permissions actually mean within my Solid Pod?
+- What effects do the permissions have that the application is requesting?
 - How do I specify which data an application may use?
 
 ### Needs

@@ -11,7 +11,7 @@ To differentiate our brand from Solid, we tried personifying our product by aski
 - If we had to associate our product with a season, which would it be?
 
 ## 2. Term association
-In order to find out which things or terms we associated with our product, we created a mindmap with terms that we associate with our product and objects we associate with those terms.
+In order to find out which things or terms we associated with our product, we created a mindmap with terms that are related to our project and objects we associate with those terms.
 
 ![LOAMA Mindmap](../images/loama-mindmap.png)
 
