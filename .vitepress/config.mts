@@ -3,10 +3,6 @@ import { defineConfig } from 'vitepress'
 const projectSidebar = {
   text: "Project", items: [
     {
-      text: 'Goal',
-      link: '/project/goal'
-    },
-    {
       text: 'Branding',
       link: '/project/brand'
     },
@@ -70,19 +66,9 @@ export default defineConfig({
     },
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'Introduction', link: "/getting-started" },
       {
-        text: 'Project', items: [
-          { text: 'Why?', link: "/project/goal" },
-          { text: 'For whom?', link: "/project/audience" },
-        ]
-      },
-      {
-        text: 'Loama', items: [
-          { text: 'Design', link: '/loama/design.md' },
-          { text: 'Development', link: '/loama/development' },
-          { text: "Feedback", link: "/loama/feedback" }
-        ]
-      },
+        text: 'Loama', link: "/loama/index.md"},
       {
         text: "Mock Apps", items: [
           { text: "MockBook", link: "/toco/mockbook/index" },
@@ -93,7 +79,10 @@ export default defineConfig({
 
     sidebar: {
       "/": [
-        { text: "Home", link: "/" },
+        {
+          text: "Getting Started",
+          link: "/getting-started"
+        },
         {
           text: "Lexicon",
           link: "/lexicon"
@@ -113,6 +102,14 @@ export default defineConfig({
         { text: "Team", link: "/team" },
       ],
       '/project': [
+        {
+          text: "Getting Started",
+          link: "/getting-started"
+        },
+        {
+          text: "Lexicon",
+          link: "/lexicon"
+        },
         projectSidebar,
         {
           ...loamaSidebar,
@@ -121,9 +118,18 @@ export default defineConfig({
         {
           ...mockAppSidebar,
           collapsed: true
-        }
+        },
+        { text: "Team", link: "/team" },
       ],
       '/loama': [
+        {
+          text: "Getting Started",
+          link: "/getting-started"
+        },
+        {
+          text: "Lexicon",
+          link: "/lexicon"
+        },
         {
           ...projectSidebar,
           collapsed: true
@@ -132,9 +138,18 @@ export default defineConfig({
         {
           ...mockAppSidebar,
           collapsed: true
-        }
+        },
+        { text: "Team", link: "/team" },
       ],
       '/toco': [
+        {
+          text: "Getting Started",
+          link: "/getting-started"
+        },
+        {
+          text: "Lexicon",
+          link: "/lexicon"
+        },
         {
           ...projectSidebar,
           collapsed: true
@@ -143,7 +158,8 @@ export default defineConfig({
           ...loamaSidebar,
           collapsed: true
         },
-        mockAppSidebar
+        mockAppSidebar,
+        { text: "Team", link: "/team" },
       ]
     },
   }
