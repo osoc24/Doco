@@ -5,11 +5,15 @@ const projectSidebar = {
   items: [
     {
       text: "Goal",
-      link: "project/goal",
+      link: "/project/goal",
     },
     {
       text: "Audience",
-      link: "project/audience",
+      link: "/project/audience",
+    },
+    {
+      title: "Lexicon",
+      link: "/project/lexicon",
     },
   ],
 };
@@ -28,10 +32,6 @@ const loamaSidebar = {
     {
       text: "Current Limitations",
       link: "deliverables/loama/limitations",
-    },
-    {
-      text: "Feedback & Future suggestions",
-      link: "deliverables/loama/feedback",
     },
   ],
 };
@@ -82,7 +82,7 @@ export default defineConfig({
         text: "Project",
         items: [
           { text: "Why?", link: "/project/goal" },
-          { text: "For whom?", link: "/project/audience" },
+          { text: "For who?", link: "/project/audience" },
         ],
       },
       {

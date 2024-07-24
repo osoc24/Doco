@@ -9,3 +9,9 @@ To have the distinction between this permission is destined to manage an agent/ 
 ## Deviations from `solid-client`
 
 The controller merges the `ControlRead` and `ControlWrite` into `Control`. Furthermore, the `AccessModes` is mapped to a `Permission[]`. As the `AccessModes` is an object where the key is the permission and the value is a boolean indicating if it should be removed or given. In the `Permission[]` this is interpreted as: If it's there it's given, otherwise not.
+
+## Limitations
+
+- There's no support for setting the permissions on an object recursively
+- When adding a new item in the index file no check is performed to make sure it isn't already present
+- When creating an empty index file, no corresponding ACL file is created
