@@ -4,8 +4,8 @@ const projectSidebar = {
   text: "Project",
   items: [
     {
-      text: "Goal",
-      link: "/project/goal",
+      text: "Brand",
+      link: "/project/brand",
     },
     {
       text: "Audience",
@@ -14,10 +14,6 @@ const projectSidebar = {
     {
       title: "Lexicon",
       link: "/project/lexicon",
-    },
-    {
-      text: "Team",
-      link: "/team",
     },
   ],
 };
@@ -85,8 +81,8 @@ export default defineConfig({
       {
         text: "Project",
         items: [
-          { text: "Why?", link: "/project/goal" },
-          { text: "For who?", link: "/project/audience" },
+          { text: "Branding", link: "/project/brand" },
+          { text: "For whom?", link: "/project/audience" },
         ],
       },
       {
