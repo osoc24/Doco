@@ -8,7 +8,7 @@ It currently displays the following information:
 - Profile information: name, email, bio, profile picture
 - Appointments: appointment type, location, date, time
 
-All data is retrieved from the user's pod using the functions provided by the [Loama controller](/deliverables/controller.md).
+All data is retrieved from the user's pod using the functions provided by the loama controller.
 You can find the current limitations of the app in the limitations section.
 
 ## How to run?
