@@ -11,6 +11,10 @@ It currently displays the following information:
 All data is retrieved from the user's pod using the functions provided by the loama controller.
 You can find the current limitations of the app in the limitations section.
 
+## Limitations
+
+There's no intermediary screen that shows which resources are required and which are optional for a correct functioning.
+
 ## How to run?
 
 Before running the application, make sure you have the code of Loama in the same directory as this repository.

@@ -1,7 +1,7 @@
 ---
 title: For whom?
 next:
-    link: /loama/index
+    link: /deliverables/loama/index
     text: 'Loama'
 ---
 # For whom?
@@ -10,7 +10,7 @@ The LOAMA project is created for users with a technological background, but we'v
 - **Ease of use**: LOAMA was designed with ease of use in mind by reducing & simplifying the steps that need to be taken to assign permissions. 
 - **Accessibiliy**: To make LOAMA as accessible as possible, we omitted using technical terms to describe functions. Instead, by using a combination of icons, simple sentences and colours, we indicate the status of files and divert the attention of the user.
 
-By using the information gained during the [brand creation](/project/brand.md), we made a persona to guide us during the design process of [Loama](/loama/index.md):
+By using the information gained during the [brand creation](/project/brand.md), we made a persona to guide us during the design process of [Loama](/deliverables/loama/index.md):
 
 ## Jermery
 

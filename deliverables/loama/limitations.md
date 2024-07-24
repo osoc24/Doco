@@ -16,9 +16,3 @@ The following things are deemed out-of-scope:
 - The `Locked`/ `Unlocked` and `Private`/ `Public`/ `Shared` status icons are missing
 - The `UserType` is simplified to merely storing the URL, no nicknames are done
 - The `Share files` functionality is not implemented
-
-## 3. Controller
-
-- There's no support for setting the permissions on an object recursively
-- When adding a new item in the index file no check is performed to make sure it isn't already present
-- When creating an empty index file, no corresponding ACL file is created
