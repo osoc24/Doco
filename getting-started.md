@@ -23,8 +23,6 @@ The LOAMA project was born out of 3 goals:
 2. **Envision a privacy-focused way to request permission**: Applications can use Solid pods, which allow users to bring and manage their own data, but how would an application request those permissions in a clear and privacy-first way?
 3. **Make Solid and its benefits more clear**: Solid allows for control of your data, but that control also brings a lot of complexity for users. LOAMA tries to make this more understandable by providing a revised [Lexicon](/lexicon) and creating an interface that is focused on ease of use.
 
-[**Read more here :arrow_right:**](/project/goal.md)
-
 ## Research
 
 In order to understand our users and how they would interact with our project, we spent time defining our target audience and creating a fitting theme by taking inspiration from the [Solid Project](https://solidproject.org).
