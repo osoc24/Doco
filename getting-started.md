@@ -41,7 +41,7 @@ Thanks to research, we gained a steady foundation to create our application. The
 
 ## Future Prospects
 
-This project was created in just 4 weeks, but in order to help future development for LOAMA, we provide an overview of the current [limitations](/deliverables/loama/limitations.md) and [future considerations](/deliverables/loama/feedback.md) for the project.
+This project was created in just 4 weeks, but in order to help future development for LOAMA, we provide an overview of the current [limitations](/deliverables/loama/limitations.md) for the project.
 
 ## Brought by IMEC & IDLab
 
