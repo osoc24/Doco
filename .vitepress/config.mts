@@ -1,54 +1,63 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from "vitepress";
 
 const projectSidebar = {
-  text: "Project", items: [
+  text: "Project",
+  items: [
     {
-      text: 'Goal',
-      link: '/project/goal'
+      text: "Goal",
+      link: "project/goal",
     },
     {
-      text: 'Audience',
-      link: '/project/audience'
-    }
-  ]
+      text: "Audience",
+      link: "project/audience",
+    },
+  ],
 };
 
 const loamaSidebar = {
-  text: 'Loama',
+  text: "Loama",
   items: [
     {
-      text: 'Design',
-      link: '/loama/design.md'
+      text: "Design",
+      link: "deliverables/loama/design.md",
     },
     {
-      text: 'Development',
-      link: '/loama/development'
+      text: "Development",
+      link: "deliverables/loama/development",
     },
     {
-      text: 'Current Limitations',
-      link: '/loama/limitations'
+      text: "Current Limitations",
+      link: "deliverables/loama/limitations",
     },
     {
-      text: 'Feedback & Future suggestions',
-      link: '/loama/feedback'
-    }
-  ]
+      text: "Feedback & Future suggestions",
+      link: "deliverables/loama/feedback",
+    },
+  ],
 };
 
 const mockAppSidebar = {
-  text: 'Mock Apps',
+  text: "Mock Apps",
   items: [
     {
-      text: 'Mockbook',
-      link: '/toco/mockbook/index'
-
+      text: "Mockbook",
+      link: "deliverables/toco/mockbook/index",
     },
     {
-      text: 'Doctorapp',
-      link: '/toco/doctorapp/index',
-    }
-  ]
-}
+      text: "Doctorapp",
+      link: "deliverables/toco/doctorapp/index",
+    },
+  ],
+};
+
+const deliverablesSidebar = {
+  text: "Deliverables",
+  items: [
+    loamaSidebar,
+    mockAppSidebar,
+    { text: "Controller", link: "deliverables/controller" },
+  ],
+};
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -56,35 +65,50 @@ export default defineConfig({
   title: "Loama",
   description: "The documentation & handover website of the LOAMA project",
   themeConfig: {
-    logo: '/loama-logo.svg',
+    logo: "/loama-logo.svg",
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/osoc24' },
-      { icon: 'linkedin', link: 'https://www.linkedin.com/company/open-summer-of-code/posts/?feedView=all' },
+      { icon: "github", link: "https://github.com/osoc24" },
+      {
+        icon: "linkedin",
+        link: "https://www.linkedin.com/company/open-summer-of-code/posts/?feedView=all",
+      },
     ],
     search: {
-      provider: 'local'
+      provider: "local",
     },
     nav: [
-      { text: 'Home', link: '/' },
+      { text: "Home", link: "/" },
       {
-        text: 'Project', items: [
-          { text: 'Why?', link: "/project/goal" },
-          { text: 'For whom?', link: "/project/audience" },
-        ]
+        text: "Project",
+        items: [
+          { text: "Why?", link: "/project/goal" },
+          { text: "For whom?", link: "/project/audience" },
+        ],
       },
       {
-        text: 'Loama', items: [
-          { text: 'Design', link: '/loama/design.md' },
-          { text: 'Development', link: '/loama/development' },
-          { text: "Feedback", link: "/loama/feedback" }
-        ]
+        text: "Deliverables",
+        items: [
+          {
+            text: "Loama",
+            items: [
+              { text: "Design", link: "/deliverables/loama/design.md" },
+              { text: "Development", link: "/deliverables/loama/development" },
+              { text: "Feedback", link: "/deliverables/loama/feedback" },
+            ],
+          },
+          {
+            text: "Mock Apps",
+            items: [
+              { text: "MockBook", link: "/deliverables/toco/mockbook/index" },
+              { text: "Docterapp", link: "/deliverables/toco/doctorapp/index" },
+            ],
+          },
+          {
+            text: "Controller",
+            link: "/deliverables/controller",
+          },
+        ],
       },
-      {
-        text: "Mock Apps", items: [
-          { text: "MockBook", link: "/toco/mockbook/index" },
-          { text: "Docterapp", link: "/toco/doctorapp/index" }
-        ]
-      }
     ],
 
     sidebar: {
@@ -92,55 +116,32 @@ export default defineConfig({
         { text: "Home", link: "/" },
         {
           text: "Lexicon",
-          link: "/lexicon"
+          link: "/lexicon",
         },
         {
           ...projectSidebar,
-          collapsed: true
+          collapsed: true,
         },
         {
-          ...loamaSidebar,
-          collapsed: true
-        },
-        {
-          ...mockAppSidebar,
-          collapsed: true
+          ...deliverablesSidebar,
+          collapsed: true,
         },
         { text: "Team", link: "/team" },
       ],
-      '/project': [
+      "/project": [
         projectSidebar,
         {
-          ...loamaSidebar,
-          collapsed: true
+          ...deliverablesSidebar,
+          collapsed: true,
         },
-        {
-          ...mockAppSidebar,
-          collapsed: true
-        }
       ],
-      '/loama': [
+      "/deliverables": [
         {
           ...projectSidebar,
-          collapsed: true
+          collapsed: true,
         },
-        loamaSidebar,
-        {
-          ...mockAppSidebar,
-          collapsed: true
-        }
+        deliverablesSidebar,
       ],
-      '/toco': [
-        {
-          ...projectSidebar,
-          collapsed: true
-        },
-        {
-          ...loamaSidebar,
-          collapsed: true
-        },
-        mockAppSidebar
-      ]
     },
-  }
-})
+  },
+});
