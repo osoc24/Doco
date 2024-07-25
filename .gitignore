@@ -121,7 +121,7 @@ dist
 
 # Vitepess cache & dev
 .vitepress/cache
-.vitepress/distA
+.vitepress/dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
