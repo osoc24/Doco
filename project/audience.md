@@ -1,7 +1,7 @@
 ---
 title: For whom?
 next:
-    link: /deliverables/loama/index
+    link: /deliverables/loama/design
     text: 'Loama'
 ---
 # For whom?
